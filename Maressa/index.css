@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: white;
+}
+.small {
+  width: 20px;
+  height: 20px;
+}
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+.icone-header {
+  font-size: 32px;
+}
+
+.tim {
+  display: flex;
+  flex-wrap: wrap;
+}
+.vivo {
+  width: 385px;
+  height: 670px;
+  background-color: rgb(223, 161, 241);
+  border-radius: 50px;
+  border: solid 17px rgb(186, 183, 183);
+  margin: 200px;
+}
+.claro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nivel {
+  width: 44px;
+  background-color: rgb(221, 203, 203);
+  text-align: center;
+}
+.poder {
+  font-size: 22px;
+  margin-right: 70px;
+  font-weight: bold;
+}
+.vida {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.foto {
+  display: flex;
+  justify-content: center;
+}
+.titulo {
+  font-size: 28px;
+  margin: 5px 0;
+}
+.descricao {
+  font-size: 20px;
+  margin: 5px 0;
+}
+.fraqueza {
+  background-color: rgb(149, 145, 145);
+  font-size: 15px;
+  padding: 3px 6px;
+}
+.coluna {
+  display: flex;
+  justify-content: space-between;
+}
+.vivo1 {
+  width: 385px;
+  height: 670px;
+  background-color: rgb(240, 179, 56);
+  border-radius: 50px;
+  border: solid 17px rgb(181, 181, 177);
+  margin: 150px;
+}
+.vivo2 {
+  width: 400px;
+  height: 670px;
+  background-color: rgb(134, 196, 87);
+  border-radius: 50px;
+  border: solid 17px rgb(249, 249, 98);
+  margin: 150px;
+}
+.vivo3 {
+  width: 385px;
+  height: 670px;
+  background-color: rgb(240, 205, 65);
+  border-radius: 50px;
+  border: solid 17px rgb(203, 203, 189);
+  margin: 150px;
+}
+.vivo4 {
+  width: 385px;
+  height: 670px;
+  background-color: rgb(106, 117, 123);
+  border-radius: 50px;
+  border: solid 17px rgb(169, 169, 169);
+  margin: 150px;
+}
+.pikachu {
+  width: 300px;
+  border: solid 5px rgb(155, 149, 149);
+}
+.vivo6 {
+  width: 385px;
+  height: 670px;
+  background-color: rgb(57, 147, 180);
+  border-radius: 50px;
+  border: solid 17px rgb(169, 169, 169);
+  margin: 150px;
+}
+.energia {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+.eletrico {
+ background: radial-gradient(circle, #ffeb3b 45%, #f9a825 100%);
+}
+
+
+.fogo {
+  background: radial-gradient(circle, #ff7043 40%, #d84315 100%);
+}
+
+.agua {
+  background: radial-gradient(circle, #4fc3f7 40%, #0277bd 100%);
+}
+
+.psiquico {
+  background: radial-gradient(circle, #e040fb 40%, #7b1fa2 100%);
+}
+
+.planta {
+  background: radial-gradient(circle, #66bb6a 40%, #2e7d32 100%);
+}
+
+.escuridao {
+  background: radial-gradient(circle, #5d4037 40%, #212121 100%);
+}
+
+  .vivo,
+  .vivo1,
+ .vivo2,
+ .vivo3,
+ .vivo4,
+  .vivo6 {
+  transition: transform 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.vivo:hover,
+.vivo1:hover,
+ .vivo2:hover,
+ .vivo3:hover,
+    .vivo4:hover,
+  .vivo6:hover {
+    transform: scale(1.1) translateY(-15px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tim {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  } .vivo,
+ .vivo1,
+    .vivo2,
+    .vivo3,
+  .vivo4,
+  .vivo6 {
+    width: 300px;
+    height: 600px;
+    margin: 15px auto;
+  }
+  .pikachu {
+    width: 230px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .coluna {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+}

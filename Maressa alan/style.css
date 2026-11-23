@@ -1,0 +1,131 @@
+
+
+body{
+    background-color: rgb(58, 55, 55);
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    background-color: rgb(240, 236, 166);
+    width: 100%;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-loja {
+    width: 65px;
+    margin: 10px;
+}
+
+
+.busca-cabecalho {
+    width: 80%; 
+    background-color: black; 
+    color: white; 
+    margin: 10px;
+}
+.busca-cabecalha{
+    width: 100%;
+    height: 16px; 
+    font-size: 30px;
+}
+.icone-carrinho {
+    height: 45px;
+    margin: 10px;
+}
+
+
+.botao-cadastrar {
+    background-color: black; 
+    color: white; 
+    height: 20px; 
+    width: 70px; 
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+.banner-principal {
+    width: 100%; 
+    height: 500px;
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.chuteira{
+    width: 350px;
+    height: 450px;
+    border: solid 8px black;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.chuteira img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.cadastro{
+    width: 90%;
+    height: 500px;
+    background-color: rgb(236, 234, 197);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.input-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input-box input{
+    font-size: 16px;
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    border: solid 2px black;
+    padding-left: 10px;
+}
+
+.botao{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.titulo-cadastro {
+    width: 500px; 
+    height: 120px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.input-box-senha {
+    flex-direction: column; 
+    align-items: center;
+    
+}
+
